@@ -1,6 +1,5 @@
 import Layout from "../components/Layout.jsx"
 import Carousel from "../components/Carousel"
-import CarouselAlt from "../components/CarouselAlt.jsx"
 import Formations from "../components/Formations"
 import Actualite from "../components/Actualite"
 import Trust from "../components/Trust.jsx"

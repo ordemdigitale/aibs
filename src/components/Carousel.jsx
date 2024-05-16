@@ -1,4 +1,4 @@
-
+import slide1 from "../assets/slide1.png"
 
 const Carousel = () => {
   return (
@@ -32,7 +32,7 @@ const Carousel = () => {
         </div>
         
         <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <img src="https://i0.wp.com/atlantique-ibs.net/wp-content/uploads/2024/01/3.jpg"
+            <img src={slide1}
               className="brightness-50 absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="image_3" />
             <div className="absolute top-1/2 left-1/2 text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">
               <h2 className="font-karla font-medium text-4xl">Rentrée 2024-2025</h2>
