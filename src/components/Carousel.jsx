@@ -3,7 +3,7 @@ import slide1 from "../assets/slide1.png"
 const Carousel = () => {
   return (
     <>
-
+{/* 
 <div id="animation-carousel" className="relative overflow-hidden w-full" data-carousel="static">
     
     <div className="h-[85vh]">
@@ -64,7 +64,7 @@ const Carousel = () => {
             <span className="sr-only">Next</span>
         </span>
     </button>
-</div>
+</div> */}
 
 
 

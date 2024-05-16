@@ -1,5 +1,6 @@
 import Layout from "../components/Layout.jsx"
 import Carousel from "../components/Carousel"
+import CarouselAlt from "../components/CarouselAlt.jsx"
 import Formations from "../components/Formations"
 import Actualite from "../components/Actualite"
 import Trust from "../components/Trust.jsx"
@@ -18,11 +19,11 @@ const Home = () => {
     
       <Layout>
 
-        <Carousel />
+        {/* <Carousel /> */}
         
-       {/*  <div className="w-[100%] m-auto">
-        <CarouselAlt slides={slides} />
-        </div> */}
+        <div className="w-[100%] m-auto">
+          <CarouselAlt slides={slides} />
+        </div>
         <Formations />
 
         <Actualite />
